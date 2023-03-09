@@ -19,6 +19,7 @@
 		D633510529B8E5A0008DEA85 /* PaletteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D633510429B8E5A0008DEA85 /* PaletteStore.swift */; };
 		D633510729BA0848008DEA85 /* PaletteChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D633510629BA0848008DEA85 /* PaletteChooser.swift */; };
 		D633510929BA2D9F008DEA85 /* PaletteEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D633510829BA2D9E008DEA85 /* PaletteEditor.swift */; };
+		D633510B29BA541F008DEA85 /* PaletteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D633510A29BA541F008DEA85 /* PaletteManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		D633510429B8E5A0008DEA85 /* PaletteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteStore.swift; sourceTree = "<group>"; };
 		D633510629BA0848008DEA85 /* PaletteChooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteChooser.swift; sourceTree = "<group>"; };
 		D633510829BA2D9E008DEA85 /* PaletteEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteEditor.swift; sourceTree = "<group>"; };
+		D633510A29BA541F008DEA85 /* PaletteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			children = (
 				D63350E829B67516008DEA85 /* EmojiArtApp.swift */,
 				D633510829BA2D9E008DEA85 /* PaletteEditor.swift */,
+				D633510A29BA541F008DEA85 /* PaletteManager.swift */,
 				D633510629BA0848008DEA85 /* PaletteChooser.swift */,
 				D633510429B8E5A0008DEA85 /* PaletteStore.swift */,
 				D63350EA29B67516008DEA85 /* EmojiArtDocumentView.swift */,
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D63350EB29B67516008DEA85 /* EmojiArtDocumentView.swift in Sources */,
+				D633510B29BA541F008DEA85 /* PaletteManager.swift in Sources */,
 				D633510529B8E5A0008DEA85 /* PaletteStore.swift in Sources */,
 				D633510929BA2D9F008DEA85 /* PaletteEditor.swift in Sources */,
 				D633510329B7CA79008DEA85 /* UtilityViews.swift in Sources */,
