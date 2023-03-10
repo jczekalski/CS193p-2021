@@ -55,6 +55,13 @@ struct EmojiArtDocumentView: View {
                     break
                 }
             }
+            // NOTE:
+            // document.backgroundImage = published value
+            // document.$backgroundImage = publisher
+            // $document.backgroundImage = binding to document.backgroundImage
+            .onReceive(document.$backgroundImage) { image in
+                zoomToFit(image, in: geometry.size)
+            }
         }
     }
     
